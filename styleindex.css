@@ -1,0 +1,133 @@
+body {
+  background-image: linear-gradient(to right, #b4b4b8, #c7c8cc, #c7c8cc, #f2efe5, whitesmoke);
+  margin: 0;
+  padding: 0;
+}
+
+.l {
+  height: 450px;
+  width: 600px;
+  position: relative;
+  bottom: 1300px;
+  left: 0px;
+}
+
+
+h1 {
+  font-family: serif;
+  font-size: 130px;
+  font-weight: bolder;
+  font-style: italic;
+
+  background: linear-gradient(to left, #336a29, #eaef9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgba(0, 0, 0, 0) 2px 2px;
+  text-align: center;
+}
+
+.qq {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  color: rgb(65, 65, 65);
+  text-align: center;
+}
+
+.ll {
+  color: black;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+}
+
+.y {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 30px;
+
+}
+
+.y button {
+  background-color: #4caf4f00;
+  padding: 15px 32px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.838);
+font-size:50px ;
+
+}
+
+.y button:hover {
+  transform: translateX(10px);
+}
+
+.aa{
+  text-decoration: none;
+  background: linear-gradient(to right, #336a29, #eaef9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+/* Responsive Design   ياض */
+@media screen and (max-width: 1024px) {
+  .l {
+    height: 300px;
+    width: 400px;
+    bottom: 600px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  .qq {
+    font-size: 50px;
+  }
+  .ll {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .l {
+    height: 250px;
+    width: 350px;
+    bottom: 300px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .qq {
+    font-size: 40px;
+  }
+  .ll {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .l {
+    height: 150px;
+    width: 250px;
+    bottom: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .qq {
+    font-size: 30px;
+  }
+  .ll {
+    font-size: 20px;
+  }
+  .y button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

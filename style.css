@@ -1,0 +1,128 @@
+
+body{
+
+margin: 0%;
+background-image: linear-gradient(to  left , #b4b4b8, #c7c8cc,#c7c8cc,#f2efe5, whitesmoke);
+}
+
+.test1{
+padding-top: 10px;
+margin: auto;
+
+
+text-align: center;
+padding: 0px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+h2 {
+font-size: xx-large;
+font-style: italic;
+
+
+}
+
+input[type="radio"] {
+  margin-right: auto;
+
+
+  
+}
+
+
+
+form {
+  
+  max-width: 900px;
+  margin:  auto;
+
+background-color: white;
+
+  padding-top: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.839);
+font-size: xx-large;
+
+
+}
+
+
+
+button {
+  display: block;
+  width: fit-content;
+
+  
+     background: linear-gradient(to right, #00ff00, #008000); /* Example: green gradient */
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: xx-large;
+  transition: all 0.5s ease;
+}
+
+
+
+
+button:hover {
+    
+}
+
+.b1{
+    position: relative;
+left: 47%;
+
+}
+.b1:hover{
+  transform: translatey(-10px);
+
+}
+
+.b2{
+background-color: #b4b4b800;
+margin-left: 0px;
+left:100%;
+}
+
+.b2:hover{
+  transform: translatex(10px);
+
+
+}
+
+.aa{
+text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
